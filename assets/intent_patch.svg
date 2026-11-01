@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150" role="img" aria-label="intent_patch">
+  <style>
+    .bg{fill:#ffffff}.edge{stroke:#d0d7de}.title{fill:#0969da}.muted{fill:#59636e}
+    @media (prefers-color-scheme: dark){.bg{fill:#0d1117}.edge{stroke:#30363d}.title{fill:#4493f8}.muted{fill:#9198a1}}
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  </style>
+  <rect x="0.5" y="0.5" width="599" height="149" rx="12" class="bg edge"/>
+  <text x="28" y="48" class="title" font-size="22" font-weight="600">intent_patch</text>
+  <text x="28" y="82" class="muted" font-size="15">Patch for Intent by Augment so several ACP</text>
+  <text x="28" y="104" class="muted" font-size="15">providers can run side by side.</text>
+  <circle cx="34" cy="127" r="6" fill="#3572A5"/>
+  <text x="48" y="132" class="muted" font-size="14">Python</text>
+</svg>

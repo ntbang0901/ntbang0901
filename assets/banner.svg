@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="ntbang, backend engineer">
+  <style>
+    .bg{fill:#f6f8fa}.edge{stroke:#d0d7de}.dot{fill:#d0d7de}
+    .title{fill:#1f2328}.muted{fill:#59636e}.accent{fill:#9a6700}
+    .term{fill:#ffffff}.tbar{fill:#eaeef2}.prompt{fill:#1a7f37}.cmd{fill:#1f2328}
+    .hi{fill:#cf222e}.ok{fill:#0969da}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#0d1117}.edge{stroke:#30363d}.dot{fill:#21262d}
+      .title{fill:#f0f6fc}.muted{fill:#9198a1}.accent{fill:#e3b341}
+      .term{fill:#010409}.tbar{fill:#161b22}.prompt{fill:#3fb950}.cmd{fill:#f0f6fc}
+      .hi{fill:#ff7b72}.ok{fill:#79c0ff}
+    }
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .cursor{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" class="dot"/>
+    </pattern>
+    <clipPath id="frame"><rect x="0.5" y="0.5" width="1279" height="319" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" class="bg"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="16" fill="none" class="edge"/>
+
+  <text x="64" y="104" class="mono muted" font-size="18">~/ntbang0901</text>
+  <text x="60" y="184" class="sans title" font-size="84" font-weight="700" letter-spacing="-3">ntbang</text>
+  <text x="64" y="228" class="sans muted" font-size="24">backend engineer · java, spring, kafka</text>
+  <text x="64" y="262" class="sans accent" font-size="20">+ tools for AI coding agents</text>
+
+  <g transform="translate(688 56)">
+    <rect width="528" height="208" rx="10" class="term"/>
+    <rect width="528" height="208" rx="10" fill="none" class="edge"/>
+    <path d="M0 10a10 10 0 0 1 10-10h508a10 10 0 0 1 10 10v22H0z" class="tbar"/>
+    <circle cx="18" cy="16" r="5" fill="#ff5f57"/>
+    <circle cx="36" cy="16" r="5" fill="#febc2e"/>
+    <circle cx="54" cy="16" r="5" fill="#28c840"/>
+    <g class="mono" font-size="15" xml:space="preserve">
+      <text x="20" y="66"><tspan class="prompt">$</tspan><tspan class="cmd"> graylog-mcp scan --range 1h</tspan></text>
+      <text x="20" y="96" class="muted">  14 rules checked, 2 fired</text>
+      <text x="20" y="122"><tspan class="hi">  high</tspan><tspan class="cmd">  error spike   payment-api   4.2x</tspan></text>
+      <text x="20" y="148"><tspan class="ok">  info</tspan><tspan class="cmd">  deploy v2.31 at 09:42, likely cause</tspan></text>
+      <text x="20" y="182"><tspan class="prompt">$</tspan><tspan class="cmd cursor"> ▍</tspan></text>
+    </g>
+  </g>
+</svg>

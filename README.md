@@ -3,6 +3,19 @@
 I write backend services in Java for a living: promotion and pricing engines, Kafka consumers, search on OpenSearch.
 After hours I build small tools that give AI coding agents better eyes on real systems, mostly MCP servers.
 
+#### `$ tail -f ~/today.log`
+
+```diff
+  09:00  INFO   java, spring boot, kafka, opensearch, mysql. the paycheck part.
+  12:30  INFO   deleted 200 lines, added 12. good day.
+  21:00  INFO   switching to mcp servers. the fun part.
++ 23:40  OK     graylog-mcp scan --range 1h: nothing fired. suspicious.
+- 02:00  WARN   coffee below threshold, retrying
+- 02:01  ERROR  sleep() returned null
+```
+
+#### `$ ls ~/projects`
+
 <p>
   <a href="https://github.com/ntbang0901/graylog-mcp"><img src="./assets/graylog-mcp.svg" width="49%" alt="graylog-mcp"></a>
   <a href="https://github.com/ntbang0901/mcp-registry"><img src="./assets/mcp-registry.svg" width="49%" alt="mcp-registry"></a>
@@ -10,7 +23,11 @@ After hours I build small tools that give AI coding agents better eyes on real s
   <a href="https://github.com/ntbang0901/intent_patch"><img src="./assets/intent_patch.svg" width="49%" alt="intent_patch"></a>
 </p>
 
+#### `$ git log --graph`
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ntbang0901/ntbang0901/output/github-snake-dark.svg">
   <img src="https://raw.githubusercontent.com/ntbang0901/ntbang0901/output/github-snake.svg" width="100%" alt="contribution graph eaten by a snake">
 </picture>
+
+<sub>if you scrolled this far, your logs are probably fine. probably.</sub>

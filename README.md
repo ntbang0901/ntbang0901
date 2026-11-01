@@ -10,8 +10,6 @@ After hours I build small tools that give AI coding agents better eyes on real s
   <a href="https://github.com/ntbang0901/intent_patch"><img src="./assets/intent_patch.svg" width="49%" alt="intent_patch"></a>
 </p>
 
-<img src="https://skillicons.dev/icons?i=java,spring,kafka,mysql,redis,python,ts,react,docker,linux&theme=dark" alt="java, spring, kafka, mysql, redis, python, typescript, react, docker, linux">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ntbang0901/ntbang0901/output/github-snake-dark.svg">
   <img src="https://raw.githubusercontent.com/ntbang0901/ntbang0901/output/github-snake.svg" width="100%" alt="contribution graph eaten by a snake">
